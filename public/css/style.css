@@ -434,16 +434,16 @@ overlay-light .YTPOverlay:before {
 .btn-main.btn-theme {
   background-color: #20409a;
   border: 1px solid #20409a;
-  box-shadow: inset 0 0 0 0 #e51b1a;
-  -webkit-box-shadow: inset 0 0 0 0 #e51b1a;
+  box-shadow: inset 0 0 0 0 #fff200;
+  -webkit-box-shadow: inset 0 0 0 0 #fff200;
 }
 .btn-main.btn-theme:hover,
 .btn-main.btn-theme:focus,
 .btn-main.btn-theme:active,
 .btn-main.btn-theme .active {
-  box-shadow: inset 0 100px 0 0 #e51b1a;
-  -webkit-box-shadow: inset 0 100px 0 0 #e51b1a;
-  border: 1px solid #e51b1a;
+  box-shadow: inset 0 100px 0 0 #fff200;
+  -webkit-box-shadow: inset 0 100px 0 0 #fff200;
+  border: 1px solid #fff200;
 }
 .btn-main.btn-transparent {
   background-color: transparent;
@@ -1186,7 +1186,7 @@ blockquote {
 }
 .pf-style:hover .overlay-content {
   opacity: 1;
-  background-color: rgba(237, 95, 94, 0.9);
+  background-color: #fff200;
 }
 .portfolio.no-filter .pf-item {
   float: left;
@@ -1273,7 +1273,7 @@ blockquote {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(237, 95, 94, 0.9);
+  background-color: #fff200;
   top: -100%;
   left: 0;
   -webkit-transition: all 300ms;
